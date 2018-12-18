@@ -1,0 +1,16 @@
+PHPUnit 6.5.8 by Sebastian Bergmann and contributors.
+
+.                                                                   1 / 1 (100%)
+Vehicle Selector is present: PASSED
+Year is present :PASSED
+Make is present :PASSED
+Model is present: PASSED
+Submodel is present: PASSED
+Engine is present: PASSED
+MyVehicle is present = 2008 Dodge Ram 1500 SLT 8 Cyl 5.7L
+Your selected vehicle: 2008 Dodge Ram 1500 SLT 8 Cyl 5.7L
+Expected is equal to actual
+
+Time: 30.19 seconds, Memory: 4.00MB
+
+OK (1 test, 1 assertion)

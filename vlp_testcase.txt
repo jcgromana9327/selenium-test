@@ -1,0 +1,18 @@
+	Scenario					Test Data			Expected Result
+			
+1	Navigate www.autopartswarehouse.com						Should navigate to apw site
+2	Verify vehicle selector should be displayed 					Should display vehicle selector
+3	Verify year should be displayed							Should display year select
+4	Click and select year				2008				Should click and select year
+5	Verify make should be displayed							Should display make select
+6	Click and select make				Dodge				Should click and select make
+7	Verify model should be displayed						Should display model select
+8	Click and select model				Ram 1500			Should click and select model
+9	Verify submodel should be displayed						Should display submodel select
+10	Click and select submodel			SLT				Should click and select submodfel
+11	Verify engine should be displayed						Should display engine select
+12	Click and select engine				8 Cyl 5.7L			Should click and select engine
+13	Click Shop Now button								Should redirect to Vehicle Landing Page
+14	Verify selected vehicle text		2008 Dodge Ram 1500 SLT 8 Cyl 5.7L	Should display selected YMMSE text
+15	Verify APW Partfinder selected YMMSE 	2008 Dodge Ram 1500 SLT 8 Cyl 5.7L	Should display selected YMMSE in partfinder
+

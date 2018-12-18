@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Bootstrap core CSS-->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom fonts for this template-->
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <!-- Page level plugin CSS-->
+        <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+        <!-- Custom styles for this template-->
+        <link href="css/sb-admin.css" rel="stylesheet">
+        <style>
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td{
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+            thead tr {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+                background-color: navy;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="card mb-3">
+                <div class="card-header">
+                    <i class="fa fa-automobile"></i>Vehicle Landing Page Simulator</div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover" id="dataTable" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>Scenario</th>
+                                    <th>Expected Result</th>
+                                    <th>Actual Result</th>
+                                    <th>Status</th>
+                                    <th>Screenshot</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Scenario</th>
+                                    <th>Expected Result</th>
+                                    <th>Actual Result</th>
+                                    <th>Status</th>
+                                    <th>Screenshot</th>
+                                </tr>
+                            </tfoot>
+                            <tbody><tr>
+                               <td>Check Vehicle Selector is present</td>
+                               <td>present</td>
+                               <td>present</td>
+                               <td><b><font color =#629632>Passed</font></b></td>
+                               <td>-</td>
+                             </tr><tr>
+                               <td>Check year selector</td>
+                               <td>2009</td>
+                               <td>2008</td>
+                               <td><b><font color =#FF0000>Failed</font></b></td>
+                               <td><a href="javascript:void(window.open('../screenshots/1529662725.png','name','scrollbars=1,height=600,width=800'));"><img src="../screenshots/1529662725.png" width="50" height="50" border="1"><br>Click Here to enlarge.</a></td>
+                             </tr><tr>
+                               <td>Check make selector</td>
+                               <td>Dodge</td>
+                               <td>Dodge</td>
+                               <td><b><font color =#629632>Passed</font></b></td>
+                               <td>-</td>
+                             </tr><tr>
+                               <td>Check model selector</td>
+                               <td>Ram 1500</td>
+                               <td>Ram 1500</td>
+                               <td><b><font color =#629632>Passed</font></b></td>
+                               <td>-</td>
+                             </tr><tr>
+                               <td>Check submodel selector</td>
+                               <td>SLT</td>
+                               <td>SLT</td>
+                               <td><b><font color =#629632>Passed</font></b></td>
+                               <td>-</td>
+                             </tr><tr>
+                               <td>Check engine selector</td>
+                               <td>8 Cyl 5.7L</td>
+                               <td>8 Cyl 5.7L</td>
+                               <td><b><font color =#629632>Passed</font></b></td>
+                               <td>-</td>
+                             </tr><tr>
+                               <td>Check MyVehicle YMMSE</td>
+                               <td>2008 Dodge Ram 1500 SLT 8 Cyl 5.7L</td>
+                               <td>2008 Dodge Ram 1500 SLT 8 Cyl 5.7L</td>
+                               <td><b><font color =#629632>Passed</font></b></td>
+                               <td>-</td>
+                             </tr><tr>
+                               <td>Check selected YMMSE Text</td>
+                               <td>2008 Dodge Ram 2500 SLT 8 Cyl 5.7L</td>
+                               <td>2008 Dodge Ram 1500 SLT 8 Cyl 5.7L</td>
+                               <td><b><font color =#FF0000>Failed</font></b></td>
+                               <td><a href="javascript:void(window.open('../screenshots/1529662759.png','name','scrollbars=1,height=600,width=800'));"><img src="../screenshots/1529662759.png" width="50" height="50" border="1"><br>Click Here to enlarge.</a></td>
+                             </tr></tbody></table>Total number of PASSED: 6<br>Total number of FAILED: 2<br></div>
+                </div>
+                <div class="card-footer small text-muted"></div>
+            </div>
+        </div>
